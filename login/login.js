@@ -8,6 +8,7 @@ function validateForm() {
   
       if (email === storedUserData.email && password === storedUserData.password) {
         alert('Login successful!');
+        window.location.href = "/body/display.html"
       } else {
         alert('Invalid email or password. Please try again.');
       }
